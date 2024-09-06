@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          backgroundColor: HexColor("#e47009"),
+          backgroundColor: HexColor("#ff4119"),
           centerTitle: true,
           title: StreamBuilder(
               stream:
@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
                       fontSize: 14,
                       fontFamily: 'Arial',
                       fontWeight: FontWeight.w600,
-                      color: HexColor("#81d30b"),
+                      color: HexColor("#000000"),
                     ));
               })),
       body: Stack(
