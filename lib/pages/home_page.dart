@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
                       fontSize: 14,
                       fontFamily: 'Arial',
                       fontWeight: FontWeight.w600,
-                      color: HexColor("#000000"),
+                      color: HexColor("#FFFFFF"),
                     ));
               })),
       body: Stack(
