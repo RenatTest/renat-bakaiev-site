@@ -1,6 +1,7 @@
+// ignore_for_file: depend_on_referenced_packages
 import 'package:flutter/material.dart';
-// ignore: depend_on_referenced_packages
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:hexcolor/hexcolor.dart';
 
 class Photo extends StatelessWidget {
   const Photo({super.key});
@@ -17,16 +18,16 @@ class Photo extends StatelessWidget {
           }
           return Stack(
             children: [
-              const CircleAvatar(
+              CircleAvatar(
                 radius: 100,
-                backgroundColor: Color.fromARGB(255, 5, 42, 122),
+                backgroundColor: HexColor("#ff4119"),
               ),
               Positioned(
                 top: 10,
                 left: 10,
                 child: CircleAvatar(
                     radius: 90,
-                    backgroundColor: const Color.fromARGB(255, 5, 42, 122),
+                    backgroundColor: HexColor("#ff4119"),
                     backgroundImage:
                         NetworkImage(snapshot.data?.docs[0].get('photo'))),
               )
