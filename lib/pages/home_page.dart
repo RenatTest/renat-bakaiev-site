@@ -221,6 +221,7 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
+  // Methods
 
   Future<void> launchUrlmail(String url) async {
     if (await canLaunchUrl(Uri.parse(url))) {
