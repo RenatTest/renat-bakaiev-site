@@ -1,11 +1,8 @@
 {
   "hosting": {
+    "target": "renat-bakaiev-site-b7b40",
     "public": "build/web",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
