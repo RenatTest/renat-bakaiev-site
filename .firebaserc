@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "renat-bakaiev-site-b7b40"
-  }
+  },
+  "targets": {
+    "renat-bakaiev-site-b7b40": {
+      "hosting": {
+        "renat-bakaiev-site-b7b40": [
+          "renat-bakaiev-site-b7b40"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
