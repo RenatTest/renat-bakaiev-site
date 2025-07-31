@@ -161,8 +161,6 @@ class HomePage extends StatelessWidget {
                                               onTap: () {
                                                 _openPDF(
                                                     '${snapshot.data?.docs[0].get('cv')}');
-                                                // launchURL(
-                                                //     '${snapshot.data?.docs[0].get('cv')}');
                                               },
                                               child: Text(
                                                 'cv: ${snapshot.data?.docs[0].get('name')} cv',
