@@ -228,14 +228,14 @@ class HomePage extends StatelessWidget {
     }
   }
 
-  void openPdfFromUrl(String url) {
-    debugPrint('opening PDF url = $url');
-    var googleDocsUrl =
-        'https://docs.google.com/gview?embedded=true&url=${Uri.encodeQueryComponent(url)}';
-    debugPrint('opening Google docs with PDF url = $googleDocsUrl');
-    final Uri uri = Uri.parse(googleDocsUrl);
-    launchUrl(uri);
-  }
+  // void openPdfFromUrl(String url) {
+  //   debugPrint('opening PDF url = $url');
+  //   var googleDocsUrl =
+  //       'https://docs.google.com/gview?embedded=true&url=${Uri.encodeQueryComponent(url)}';
+  //   debugPrint('opening Google docs with PDF url = $googleDocsUrl');
+  //   final Uri uri = Uri.parse(googleDocsUrl);
+  //   launchUrl(uri);
+  // }
 
   void _openPDF(String url) {
     var googleDocsUrl =
